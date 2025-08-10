@@ -8,7 +8,7 @@ fi
 
 WALLET_ADDRESS=$1
 
-COMMAND="./mine-linux --url=146.190.104.148:80 --address=$WALLET_ADDRESS"
+COMMAND="./mine-linux --url=http://146.190.104.148:80 --address=$WALLET_ADDRESS"
 
 trap "echo 'Script interrupted'; exit" SIGINT
 
