@@ -28,7 +28,7 @@ cat << EOF > "$SERVER_SCRIPT"
 MINING_ADDRESS=\$MINING_ADDRESS
 SCRIPT_DIR=\$SCRIPT_DIR
 
-COMMAND="\$SCRIPT_DIR/mine-linux --url=http://orepool.xyz:8080 --address=\$MINING_ADDRESS"
+COMMAND="\$SCRIPT_DIR/mine-linux --url=146.190.104.148:80 --address=\$MINING_ADDRESS"
 LOGFILE="\$SCRIPT_DIR/logfile.log"
 
 # 确保日志目录存在
